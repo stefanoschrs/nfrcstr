@@ -1,0 +1,21 @@
+{
+  "name": "nfrcstr",
+  "version": "1.0.0",
+  "description": "Do you dare?",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanoschrs/nfrcstr.git"
+  },
+  "author": "Stefanos Chrs <stefanoschrs@hotmail.com>",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/stefanoschrs/nfrcstr/issues"
+  },
+  "homepage": "https://github.com/stefanoschrs/nfrcstr#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-sass": "^2.3.2"
+  }
+}

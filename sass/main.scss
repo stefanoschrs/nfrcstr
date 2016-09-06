@@ -1,0 +1,19 @@
+@import "https://fonts.googleapis.com/css?family=Titillium+Web:700";
+@import "mixins";
+
+body{
+	background: black;
+	font-size: 2em;
+	height: 100vh;
+	margin: 0;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.glitch{
+	position: absolute !important;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
+	@include textGlitch("glitch", 17, white, black, red, blue, 600, 150);
+}
